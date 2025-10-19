@@ -82,6 +82,54 @@ body
     border-radius: 1rem;
 }
 
+media (max-width: 900px) {
+  #imgs {
+    gap: 2rem;
+    margin: 20px;
+    flex-wrap: wrap;
+  }
+  .score-board {
+    gap: 2rem;
+    flex-direction: column;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #heading {
+    height: auto;
+    padding-top: 20px;
+    font-size: 1.2rem;
+  }
+  #imgs {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 10px;
+  }
+  .hand {
+    height: 80px;
+    width: 80px;
+    border-width: 3px;
+  }
+  .score-board {
+    font-size: 1rem;
+    gap: 1.2rem;
+  }
+  #user-score,
+  #comp-score {
+    font-size: 2rem;
+  }
+  #msg {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+  }
+}
+
+
+
+
+
 
 
 
