@@ -15,6 +15,11 @@ A fun and interactive Rock-Paper-Scissors game built using **HTML**, **CSS**, an
 - **CSS** for styling and layout  
 - **JavaScript** for interactivity and game logic
 
+## 🌐 Live Demo
+
+Check out the live version of the game [here](https://rock-paper-scissors-game-yk12.vercel.app/).
+
+
 ## 🚀 How to Run Locally
 1. Clone this repository:
    ```bash
